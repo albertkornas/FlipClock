@@ -2,8 +2,8 @@ import SwiftUI
 
 struct ClockView: View {
 
-    let viewModel = ClockViewModel()
-
+    @EnvironmentObject var viewModel: ClockViewModel
+    
     var body: some View {
         HStack(spacing: 15) {
             HStack(spacing: 5) {

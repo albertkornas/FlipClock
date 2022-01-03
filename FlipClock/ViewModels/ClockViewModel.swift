@@ -1,9 +1,25 @@
 import Foundation
 import Combine
+import SwiftUI
 
-class ClockViewModel {
+enum TimeFormat {
+    case military, standard
+}
 
+class ClockViewModel: ObservableObject {
+    
+    @Published var militaryTime: Bool = false {
+        didSet {
+            self.updateDateFormatter()
+        }
+    }
+    
+    private func updateDateFormatter() {
+        self.timeFormatter.dateFormat = militaryTime == true ? "HHmmss" : "hhmmss"
+    }
+    
     init() {
+        
         setupTimer()
     }
 

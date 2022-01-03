@@ -1,11 +1,9 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    @StateObject var clockViewModel = ClockViewModel()
     var body: some View {
-        VStack(alignment: .center) {
-            ClockView()
-        }
+        HomeView().environmentObject(clockViewModel)
     }
 
 }
