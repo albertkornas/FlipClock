@@ -10,9 +10,13 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack(alignment: .center) {
-            ClockView()
-            OptionsButton()
+        ZStack {
+            GradientView()
+            VStack(alignment: .center) {
+                ClockView()
+                OptionsButton()
+            }
+            
         }
     }
 }

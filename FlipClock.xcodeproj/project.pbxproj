@@ -26,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		1B0EBE862783AB2A00127D70 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1B562E5827932879004D6B28 /* todo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = todo.md; sourceTree = "<group>"; };
 		1BB438A72783B9800083019B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		47DEBEBA2358F8C4004E2BCA /* ClockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewModel.swift; sourceTree = "<group>"; };
 		47DEBEBC2358F902004E2BCA /* DateFormatter+TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+TimeFormatter.swift"; sourceTree = "<group>"; };
@@ -130,6 +131,7 @@
 				47DEBEC92358FA3C004E2BCA /* SupportingFiles */,
 				47DEBECB2358FA55004E2BCA /* ViewModels */,
 				47DEBECA2358FA4F004E2BCA /* Views */,
+				1B562E5827932879004D6B28 /* todo.md */,
 			);
 			path = FlipClock;
 			sourceTree = "<group>";
